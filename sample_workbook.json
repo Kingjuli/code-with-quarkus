@@ -6,7 +6,7 @@
       {
         "type": "Microsoft.Storage/storageAccounts",
         "apiVersion": "2021-09-01",
-        "name": "extidMonitorrn",
+        "name": "extidmonitorrn",
         "location": "eastus",
         "sku": {
           "name": "Standard_LRS"
