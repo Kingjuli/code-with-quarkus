@@ -25,7 +25,7 @@
     },
     "resources": [
         {
-            "name": "[concat('externalidazuremonitor', '1')]",
+            "name": "7cfda02e-030e-4c10-89fd-990c73b4c8f9",
             "type": "microsoft.insights/workbooks",
             "location": "[resourceGroup().location]",
             "apiVersion": "2018-06-17-preview",
