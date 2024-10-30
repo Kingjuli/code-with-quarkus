@@ -25,7 +25,7 @@
     },
     "resources": [
         {
-            "name": "[concat('external-id-azure-monitor', parameters('workbookId'))]",
+            "name": "[concat('externalIdAzureMonitor', parameters('workbookId'))]",
             "type": "microsoft.insights/workbooks",
             "location": "[resourceGroup().location]",
             "apiVersion": "2018-06-17-preview",
