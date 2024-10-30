@@ -25,7 +25,7 @@
     },
     "resources": [
         {
-            "name": "[parameters('workbookId')]",
+            "name": "[concat('external-id-azure-monitor', parameters('workbookId')]",
             "type": "microsoft.insights/workbooks",
             "location": "[resourceGroup().location]",
             "apiVersion": "2018-06-17-preview",
@@ -37,7 +37,8 @@
                 "version": "1.0",
                 "sourceId": "[concat(resourceGroup().id,'/','providers/Microsoft.OperationalInsights/workspaces','/',parameters('workSpaceName'))]",
                 "category": "workbook"
-            },"templateLink": {
+            },
+            "templateLink": {
                 "uri":"https://raw.githubusercontent.com/Kingjuli/code-with-quarkus/refs/heads/master/authlocal.json",
                 "contentVersion":"1.0.0.1"
             }
