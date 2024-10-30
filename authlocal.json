@@ -37,7 +37,11 @@
                 "version": "1.0",
                 "sourceId": "[concat(resourceGroup().id,'/','providers/Microsoft.OperationalInsights/workspaces','/',parameters('workSpaceName'))]",
                 "category": "workbook"
-            }
+            },
+            "templateLink": {
+                "uri":"https://raw.githubusercontent.com/Kingjuli/code-with-quarkus/refs/heads/master/authlocal.json",
+                "contentVersion":"1.0.0.1"
+            },
         }
     ],
     "outputs": {
