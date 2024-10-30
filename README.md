@@ -48,3 +48,7 @@ If you want to learn more about building native executables, please consult http
 <p>A Hello World RESTEasy resource</p>
 
 Guide: https://quarkus.io/guides/rest-json
+
+
+## Deploy to Azure
+[![Deploy to Azure - Auth Workbook](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FKingjuli%2Fcode-with-quarkus%2Frefs%2Fheads%2Fmaster%2Fauthlocal.json%26api-version%3D6.0)
