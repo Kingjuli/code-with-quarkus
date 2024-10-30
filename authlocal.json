@@ -41,7 +41,7 @@
             "templateLink": {
                 "uri":"https://raw.githubusercontent.com/Kingjuli/code-with-quarkus/refs/heads/master/authlocal.json",
                 "contentVersion":"1.0.0.1"
-            },
+            }
         }
     ],
     "outputs": {
